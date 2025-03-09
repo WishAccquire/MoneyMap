@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables
+.env*
+!.env.example  # Keep an example file for reference
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+turbo/
+
+# OS & IDE-specific files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Optional: TypeScript build cache
+*.tsbuildinfo
+
+# Optional: Dependency resolution files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: Ignore local testing files
+coverage/
+jest/
+.cypress/
+.cypress_cache/
+
+# Optional: Ignore public/runtime cache (if applicable)
+public/sw.js
+public/workbox-*.js
+public/worker-*.js
+public/fallback-*.html
